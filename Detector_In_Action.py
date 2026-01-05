@@ -9,7 +9,7 @@ from tensorflow.keras.layers import Dense,Conv2D,Flatten,MaxPooling2D,Dropout
 
 
 
-model = tf.keras.models.load_model('emotion_detection_model_gsn.h5')
+model = tf.keras.models.load_model('emotion_detection_model (1).h5')
 emotion_dict = {0: "Angry", 1: "Disgusted", 2: "Fearful", 3: "Happy", 4: "Neutral", 5: "Sad", 6: "Surprised"}
 
 
